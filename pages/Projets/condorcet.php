@@ -22,7 +22,7 @@ include "../navbar.php"
                 Ce projet a été conçu et déployé en ligne par notre équipe de 5 personnes dans le cadre d'une SAE 
                 (Situation d'Apprentissage et d'Évaluation).
                 <br></br>
-                Ayant dépassé les objectifs de cette SAE pour des 2e années, l'application est réellement utilisée par le client !
+                Ayant dépassé les objectifs de cette SAE pour des 2e années, l'application à été mise en ligne et est réellement utilisée par le client !
             </p>
             </div>
             <div id="intro2">
@@ -36,6 +36,9 @@ include "../navbar.php"
                 <h2>Fonctionnalités principales</h2>
                 <p>
                     Cette application web a pour objectif de rendre la pédagogie du collège plus ludique en s'inspirant des maisons de Harry Potter, chaque maison peut gagner ou perdre des points selon leur comportement en classe afin de monter dans le classement !
+                </p>
+                <p>
+                    L'application a pour but d'être utilisée par les professeurs et l'administration, il nous imcombait donc de faire en sorte que l'application soit la plus accessible et simple d'utilisation possible afin de leur offrir la meilleur experience utilisateur !
                 </p>
             </div>
             <div class="func-bas">

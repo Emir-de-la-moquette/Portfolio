@@ -34,7 +34,7 @@
       "titre": "Battlestar Equestria online",
       "image": "../static/images/projets-events/battlestar.png",
       "description": "Création d'une application java client-serveur du jeu de société Battlestar Equestria basé sur le jeu de société Battlestar Galactica mais modifié sur le thème de My Little Pony.",
-      "lien": "#"
+      "lien": "./Projets/battlestar.php"
     }
   ]
 }
