@@ -1,0 +1,34 @@
+{
+  "competences": {
+    "langages": [
+      { "nom": "Python", "image": "../static/images/skills/python.png" },
+      { "nom": "Java", "image": "../static/images/skills/java.png" },
+      { "nom": "MySQL", "image": "../static/images/skills/mysql.png" }
+    ],
+    "WEB": [
+      { "nom": "Python - Flask", "image": "../static/images/skills/flask.png" },
+      { "nom": "HTML / CSS", "image": "../static/images/skills/htmlcss.png" },
+      { "nom": "PHP", "image": "../static/images/skills/php.png" },
+      { "nom": "JavaScript", "image": "../static/images/skills/js.png" }
+    ],
+    "logiciels / IDE": [
+      { "nom": "Visual Studio Code", "image": "../static/images/skills/vscode.png" },
+      { "nom": "Arduino IDE", "image": "../static/images/skills/arduino.png" },
+      { "nom": "MariaDB", "image": "../static/images/skills/mariadb.png" },
+      { "nom": "SceneBuilder", "image": "../static/images/skills/scenebuilder.png" },
+      { "nom": "Draw.io", "image": "../static/images/skills/drawio.png" },
+      { "nom": "MagicDraw UML", "image": "../static/images/skills/magicdraw.png" }
+    ],
+    "methodologies": [
+      { "nom": "Scrum", "image": "../static/images/skills/scrum.png" },
+      { "nom": "UML", "image": "../static/images/skills/uml.png" },
+      { "nom": "SysML", "image": "../static/images/skills/sysml.png" }
+    ],
+    "langues": [
+      { "nom": "Français", "image": "../static/images/fr.png" },
+      { "nom": "Anglais", "image": "../static/images/us.png" },
+      { "nom": "Allemand", "image": "../static/images/ge.png" },
+      { "nom": "Polonais", "image": "../static/images/pl.png" }
+    ]
+  }
+}

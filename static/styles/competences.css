@@ -1,0 +1,73 @@
+
+
+.competences-carousel {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.competences-carousel-title {
+    background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7));
+    border-radius: 10px;
+    max-width: 90vw;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.competences-carousel-title h2 {
+    font-size: 2em;
+    color: #000000;
+}
+
+.competences-carousel-items {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 20px;
+    scroll-behavior: smooth;
+    padding: 1em;
+    list-style-type: none;
+    margin: 0;
+    justify-content: center;
+}
+
+.competences-carousel-item {
+    flex: 0 0 200px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.competences-carousel-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.competences-name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Personnalisation de la scrollbar */
+.competences-carousel-items::-webkit-scrollbar {
+    height: 6px;
+    background-color: transparent;
+}
+
+.competences-carousel-items::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 3px;
+}

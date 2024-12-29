@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;    
+    position: relative;
+    min-height: 100%; /* Garantir que le body prend toute la hauteur de la fenêtre */
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(36, 0, 134, 1));
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1; /* L'image de fond sera derrière le contenu */
+}
+
+header {
+    text-align: center;
+    background-color: #00509e;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro-z {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5vh;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.intro-z h2{
+    color: white;
+    font-size: 4em;
+}
+.intro-z p {
+    color: white;
+    font-size: 2em;
+}
+
+#intro1 {
+    max-width: 60vw;
+    margin: 5em;
+    margin-left: 0;
+}
+#intro2 {
+    position: absolute;
+    right: 0;
+    margin-top:5em;
+    margin-right: 0;
+    min-width: 20%;
+}
+#intro2 img {
+    min-width: 25vw;
+}
+
+section {
+    margin-bottom: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.5));
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+section h2 {
+    color: #00509e;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #00509e;
+    color: white;
+}
+
+/* section infos */
+
+.features {
+    display:flex;
+    flex-direction: column;
+}
+
+.func-haut {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+    margin-bottom: 2em;
+}
+.func-haut h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    align-self: center;
+    margin-bottom: 0;
+}
+.func-haut p {
+    font-size: 1.5em;
+    align-self: center;
+}
+.func-bas {
+    display: flex;
+    flex-direction: row;
+}
+.txt {
+    min-width: 60%;
+    margin-left: calc(5% - 20px);
+    margin-right: calc(5% - 20px);
+}
+.txt h3 {
+    font-size: 2.5em;
+}
+.txt p {
+    font-size: 1.2em;
+}
+.imag {
+    min-width: 20%;
+    margin-left: calc(5% - 20px);
+    margin-right: calc(5% - 20px);
+}
+.func-bas img {
+    max-width: 20em;
+}
+
+/* section techno */
+
+.tech {
+    display:flex;
+    flex-direction: column;
+}
+
+.tech-haut {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+    margin-bottom: 2em;
+}
+.tech-haut h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    align-self: center;
+    margin-bottom: 0;
+}
+.tech-haut p {
+    font-size: 1.5em;
+    align-self: center;
+}
+.tech-bas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tech-bas img {
+    max-height: 10em;
+    max-width: 10em;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

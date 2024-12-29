@@ -1,0 +1,166 @@
+/* Réinitialisation de base */
+body, h1, h2, p, ul, li, a, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+/* Mise en place du fond */
+body {
+    /* background-color: black; */
+    position: relative;
+    min-height: 100%; /* Garantir que le body prend toute la hauteur de la fenêtre */
+}
+
+/* Pseudo-élément pour l'image de fond */
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-image: url('../images/fond2.png'); */
+    /* filter : blur(0.5em); */
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(36, 0, 134, 1));
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1; /* L'image de fond sera derrière le contenu */
+    
+    /* Animation d'apparition fondue */
+    opacity: 0;
+    animation: fadeInBackground 3s forwards;
+}
+
+/* Animation de fade-in pour l'image de fond */
+@keyframes fadeInBackground {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Section principale */
+.custom-shape1 {
+    padding: 20px;
+    max-width: 90vw;
+    margin: auto;
+    /* background: rgba(255, 255, 255, 0.4); */
+    background-image: linear-gradient(rgba(255, 255, 255,1),rgba(255, 255, 255, 0.4));
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+
+    width: 80vw; /* Largeur du div */
+    height: 420px; /* Hauteur du div */
+    clip-path: polygon(0% 0%, 100% 8%, 100% 100%, 0% 87%);
+    position: relative;
+
+    
+    /* Animation d'apparition */
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+.custom-shape2 {
+
+    padding: 20px;
+    margin: auto;
+    margin-top: -40px;
+    width: 80vw; /* Largeur du div */
+    height: 60px; /* Hauteur du div */
+    clip-path: polygon(0% 0%, 100% 60%, 100% 98%, 0% 40%);
+    position: relative;
+    background: rgb(73, 69, 69);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    /* Animation d'apparition */
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+
+/* Animation d'apparition fondue */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.custom-shape1 img {
+    max-width: 40%; /* Limite la largeur à 40% du conteneur */
+    max-height: 300px; /* Limite la hauteur maximale */
+    object-fit: contain; /* Assure que l'image reste proportionnelle */
+    margin-left: 20px; /* Ajoute de l'espace entre le texte et l'image */
+
+    clip-path: xywh(0 0px 100% 100% round 20% 0);
+}
+
+/* Liens et boutons focus/accessibilité */
+a:focus, button:focus {
+    outline: 2px dashed #ff9800;
+    outline-offset: 2px;
+}
+
+.feur {
+    max-height: 80%;
+    margin: 20px;
+    padding: 20px;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    flex: 1;
+}
+
+.feur h1 {
+    font-weight: bold;
+    font-size:400%;
+}
+.feur p {
+    font-weight: bold;
+    font-size: 200%;
+    margin-left: 0.1em;
+    color: rgb(96, 96, 96);
+}
+
+.dessus-feur {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between; /* Espace entre le texte et l'image */
+    align-items: center; /* Aligne le contenu verticalement */
+}
+
+.apropos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 5em auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    width: calc(70vw + 40px);
+    
+    /* Animation d'apparition */
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+.apropos h2 {
+    margin: 1em;
+    font-size: 200%;
+}
+
+.apropos p {
+    margin-bottom: 2em;
+    font-size: 150%;
+    padding: 0 5%;
+    text-align: justify;
+}

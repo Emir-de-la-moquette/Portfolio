@@ -1,0 +1,153 @@
+
+a {
+    text-decoration: none;
+}
+
+.project-content {
+    padding-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.project-content .holder {
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.project-content article {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+.custom-shape3 {
+    padding: 20px;
+    max-width: 90vw;
+    margin: auto;
+    /* background: rgba(255, 255, 255, 0.4); */
+    background-image: linear-gradient(rgba(255, 255, 255,1),rgba(255, 255, 255, 0.7));
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 2em;
+
+    width: 70vw; /* Largeur du div */
+    height: 120px; /* Hauteur du div */
+    /* clip-path: polygon(0% 0%, 100% 20%, 100% 78%, 0% 56%); */
+    position: relative;
+
+    
+    /* Animation d'apparition */
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+
+    text-align: center;
+}
+
+.custom-shape3 h1 {
+    font-weight: bold;
+    font-size:400%;
+}
+.custom-shape3 p {
+    font-weight: bold;
+    font-size: 200%;
+    margin-left: 0.1em;
+    color: rgb(96, 96, 96);
+}
+
+.carousel {
+    display: flex; /* Important pour aligner les éléments horizontalement */
+    overflow-x: auto; /* Active le défilement horizontal */
+    overflow-y: hidden; /* Empêche le défilement vertical */
+    scroll-behavior: smooth; /* Optionnel : rend le défilement fluide */
+    cursor: grab; /* Indique que l'utilisateur peut glisser */
+}
+
+.carousel-items {
+    display: flex;
+    padding-bottom: 1em;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 450px;
+}
+
+.carousel-item {
+    flex: 1 0 250px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    scroll-snap-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 25px;
+    padding: 0.5%;
+    list-style-type: none;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: grab; /* Indique que l'utilisateur peut glisser */
+    user-select: none;
+    min-width: 18%;
+}
+
+.carousel-item:active {
+    cursor: grabbing; /* Change l'apparence en mode glissement */
+}
+
+
+.carousel-item img {
+    margin: 10px;
+    max-width: 24em;
+    max-height: 24em;
+    height: 360px;
+    pointer-events: none;
+    border-radius: 20px;
+}
+
+.card-content {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content p {
+    font-weight: bold;
+}
+
+.card-content .button {
+    margin-top: auto;
+}
+
+#btnLienProjet {
+    background-color: blueviolet;
+    border-radius: 16px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0.5em;
+    max-width: 50%;
+    margin: auto;
+}
+
+
+#btnLienProjet p {
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+::-webkit-scrollbar-track {
+    background-color: #f5f5f500;
+}
+
+::-webkit-scrollbar {
+    height: 6px;
+    background-color: #f5f5f500;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 3px;
+}
