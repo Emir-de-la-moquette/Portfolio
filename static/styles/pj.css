@@ -69,9 +69,12 @@ main {
     margin-top:5em;
     margin-right: 0;
     min-width: 20%;
+    display: flex;
+    align-items: center;
+    height: 80%;
 }
 #intro2 img {
-    min-width: 25vw;
+    /* min-width: 25vw; */
 }
 
 section {
@@ -136,6 +139,7 @@ footer {
 .func-bas {
     display: flex;
     flex-direction: row;
+    min-width: 50%;
 }
 .txt {
     min-width: 60%;

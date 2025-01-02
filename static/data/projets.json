@@ -4,13 +4,13 @@
       "titre": "OISHOME",
       "image": "../static/images/base.png",
       "description": "Projet STI2D, OISHOME est une cabana aviaire autonome permettant de récolter des données sur les oiseaux dans des zones isolées.",
-      "lien": "#"
+      "lien": "./Projets/oishome.php"
     },
     {
       "titre": "Airplan War",
       "image": "../static/images/projets-events/airplan.png",
       "description": "Projet de BUT 2, Mini jeu de shoot-em-up dans lequel on joue un avion devant tirer et esquiver afin d'obtenir le plus de point possible.",
-      "lien": "#"
+      "lien": "./Projets/airplanwar.php"
     },
     {
       "titre": "Les maisons de Condorcet",
@@ -22,13 +22,13 @@
       "titre": "Puissance 4 java en ligne",
       "image": "../static/images/projets-events/puis4.png",
       "description": "SAÉ de BUT 2, Application Java client et serveur pour jouer des parties de puissance 4 contre d'autres joueurs en ligne.",
-      "lien": "#"
+      "lien": "./Projets/puissance4.php"
     },
     {
       "titre": "Site web de managament Equestre",
       "image": "../static/images/projets-events/poney.png",
       "description": "SAÉ de BUT 2, Application web pour un client fictif qui dispose d'une partie où les clients peuvent réserver des cours, et les admins peuvent gérer les cours et ressources.",
-      "lien": "#"
+      "lien": "./Projets/grandgallop.php"
     },
     {
       "titre": "Battlestar Equestria online",
