@@ -25,6 +25,12 @@
         <li><a href="/pages/home.php#">Contact</a></li>
     </ul>
     <div class="dropdown">
+        <p>Clermont Shanka</p>
+    </div>
+
+    <!-- BOUTON ACCESSIBILITE A FINIR -->
+
+    <!-- <div class="dropdown">
         <button class="dropbtn">Accessibilité</button>
         <div class="dropdown-content">
             <a href="#" id="increase-text">Augmenter le texte</a>
@@ -32,7 +38,7 @@
             <a href="#" id="high-contrast">Mode contraste élevé</a>
             <a href="#" id="reset-settings">Réinitialiser</a>
         </div>
-    </div>
+    </div> -->
 </div>
 
 <script src="<?= $basePath ?>static/scripts/language.js"></script>
