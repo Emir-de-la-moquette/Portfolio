@@ -21,8 +21,9 @@ include 'navbar.php';
                     flex-direction: column;
                     justify-content: center;
                     text-align: center;
-                    margin-top:-30%;">
-                    
+                    margin-top:-25%;
+                    font-size:larger;">
+
             <h1 style="color:white;">Contactez-moi</h1>
             <p style="color:white;margin-bottom:5em">Si vous souhaitez rentrer en contact avec moi pour faire part d'une opportunité ou d'un projet alors voici mes coordonnées</p>
             <h2 style="color:white;"><u>Mail</u>        :  shanka.clermont@gmail.com</h2>
