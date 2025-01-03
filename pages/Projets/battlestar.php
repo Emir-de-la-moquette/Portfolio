@@ -20,7 +20,7 @@ include "../navbar.php"
             <p>
                 "Battlestar Equestria Online" est une application java d'un projet personnel, il s'agit initialement d'un jeu de société sur le thème de "My little pony" basé sur le jeu de société Battlestar Galactica.
                 <br></br>
-                La première étape fut la création physique du jeu de société (plateau, cartes, boites et accessoires), puis de faire une version sur Tabletop Simulator afin de pouvoir y jouer en ligne, cependant le coût du jeu de 20e réduisait les possibilité de jeu, j'ai alors commencé le devellopement de ma propre application avec serveur.
+                La première étape fut la création physique du jeu de société (plateau, cartes, boites et accessoires), puis de faire une version sur Tabletop Simulator afin de pouvoir y jouer en ligne, cependant le coût du jeu de 20e réduisait les possibilité de jeu, j'ai alors commencé le developement de ma propre application avec serveur.
             </p>
             </div>
             <div id="intro2">
@@ -31,7 +31,7 @@ include "../navbar.php"
 
         <section class="features">
             <div class="func-haut">
-                <h2>Fonctionnalités principales</h2>
+                <h2>Le projet</h2>
                 <p>
                     L'application du Battlestar Equestria est toujours en phase du début de dévelloppement, les avancements du projets seront affiché sur ce portfolio !
                 </p>

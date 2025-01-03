@@ -18,7 +18,7 @@ include "../navbar.php"
             <div id="intro1">
             <h2>Airplan War</h2>
             <p>
-                Ce projet organisé au sein d'un projet du cours de "qualité dev" au sein de L'IUT d'Orléans consistait à "réparer" les parties de code fournies et de les assembler puis de coder les fonctionnalités demandée tout en soutenant les principes de qualité de devellopement.
+                Ce projet organisé au sein d'un projet du cours de "qualité dev" au sein de L'IUT d'Orléans consistait à "réparer" les parties de code fournies et de les assembler puis de coder les fonctionnalités demandée tout en soutenant les principes de qualité de developement.
                 <br></br>
                 L'application est un "Shoot-em-up" assez basique écrit en python dans lequel vous controllez un petit vaiseau spatial qui q'améliore après un certain nombre de points.
                 <br></br>
@@ -30,6 +30,15 @@ include "../navbar.php"
             </div>
 
         </div>
+
+        <section class="features">
+            <div class="func-haut">
+                <h2>Objectif</h2>
+                <p>
+                    Ce projet avait pour but de nous apprendre les bonnes pratiques de la collaboration et de la qualité de developement, nous étions 2 par groupe et chaque développeur avait ses tâches précise à faire et devez s'assurer d'un pylint correct et de test valides  ainsi que de proprement utiliser git.
+                </p>
+            </div>
+        </section>
 
         <section class="features">
             <div class="func-haut">
