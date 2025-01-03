@@ -24,7 +24,7 @@ include "../navbar.php"
             </p>
             </div>
             <div id="intro2">
-                <img src="../../static\images\projets-events\condorcet.png" alt="Présentation de l'application">
+                <img src="../../static\images\projets-events\battlestar.png" alt="Présentation de l'application">
             </div>
 
         </div>
