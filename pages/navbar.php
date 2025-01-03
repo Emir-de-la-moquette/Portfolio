@@ -22,7 +22,7 @@
         <li><a href="/pages/home.php#projet php">Projets</a></li>
         <li><a href="/pages/home.php#events php">Evènements</a></li>
         <li><a href="/pages/home.php#skills php">Compétences</a></li>
-        <li><a href="/pages/home.php#">Contact</a></li>
+        <li><a href="/pages/contact.php">Contact</a></li>
     </ul>
     <div class="dropdown">
         <p>Clermont Shanka</p>

@@ -12,19 +12,22 @@ include 'navbar.php';
     <link rel="stylesheet" href="../static/styles/home.css">
 </head>
 <body>
-    <section>
-        <h1>Contactez-moi</h1>
-        <form action="contact_form.php" method="post">
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="name" required>
+    <section style="min-height: 100vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;">
 
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message :</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <button type="submit">Envoyer</button>
-        </form>
+        <div style="display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                    margin-top:-30%;">
+                    
+            <h1 style="color:white;">Contactez-moi</h1>
+            <p style="color:white;margin-bottom:5em">Si vous souhaitez rentrer en contact avec moi pour faire part d'une opportunité ou d'un projet alors voici mes coordonnées</p>
+            <h2 style="color:white;"><u>Mail</u>        :  shanka.clermont@gmail.com</h2>
+            <h2 style="color:white;"><u>Tel</u>         :  +33 6 02 14 94 57</h2>
+            <h2 style="color:white;"><u>LinkedIn</u>    :  <a style="color:pink;"href="https://www.linkedin.com/in/shanka-clermont-77b86b328/">Shanka Clermont</a></h2>
+        </div>
     </section>
 </body>
