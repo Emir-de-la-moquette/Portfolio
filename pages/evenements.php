@@ -37,7 +37,7 @@ if (isset($eventsData['projets']) && count($eventsData['projets']) > 0) {
                     <img src="<?= htmlspecialchars($event['image']) ?>" alt="<?= htmlspecialchars($event['titre']) ?>" />
                     <div class="card-content">
                         <p><?= htmlspecialchars($event['description']) ?></p>
-                        <a href="<?= htmlspecialchars($projet['lien']) ?>" class="button"><div id="btnLienProjet"><p>Plus D'info ici !</p></div></a>
+                        <a href="<?= htmlspecialchars($event['lien']) ?>" class="button"><div id="btnLienProjet"><p>Plus D'info ici !</p></div></a>
                     </div>
                 </div>
             </li>

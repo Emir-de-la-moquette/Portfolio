@@ -4,13 +4,13 @@
       "titre": "24h des IUT 2024",
       "image": "../static/images/projets-events/24hinfo.png",
       "description": "Participation aux 24h de l'info en 2024 à Villetanneuse.",
-      "lien": "#"
+      "lien": "./Event/24hinfo2024.php"
     },
     {
       "titre": "Nuit de l'info 2024",
       "image": "../static/images/projets-events/ndi.png",
       "description": "Participation à la nuit de l'info 2024.",
-      "lien": "#"
+      "lien": "./Event/ndi2024.php"
     }
   ]
 }
