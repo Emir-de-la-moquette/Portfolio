@@ -3,7 +3,7 @@
     {
       "titre": "OISHOME",
       "image": "../static/images/projets-events/oishome.png",
-      "description": "Projet STI2D, OISHOME est une cabana aviaire autonome permettant de récolter des données sur les oiseaux dans des zones isolées.",
+      "description": "Projet STI2D, OISHOME est une cabane aviaire autonome permettant de récolter des données sur les oiseaux dans des zones isolées.",
       "lien": "./Projets/oishome.php"
     },
     {
