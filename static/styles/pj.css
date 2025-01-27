@@ -69,6 +69,7 @@ main {
     margin-top:5em;
     margin-right: 0;
     min-width: 20%;
+    max-width: 25vw;
     display: flex;
     align-items: center;
     height: 80%;
@@ -183,6 +184,10 @@ footer {
 }
 .tech-haut p {
     font-size: 1.5em;
+    align-self: center;
+}
+.tech-haut a {
+    font-size: 2em;
     align-self: center;
 }
 .tech-bas {
