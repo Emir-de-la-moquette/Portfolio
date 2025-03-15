@@ -26,9 +26,7 @@
     ],
     "langues": [
       { "nom": "Français", "image": "../static/images/fr.png" },
-      { "nom": "Anglais", "image": "../static/images/us.png" },
-      { "nom": "Allemand", "image": "../static/images/ge.png" },
-      { "nom": "Polonais", "image": "../static/images/pl.png" }
+      { "nom": "Anglais", "image": "../static/images/us.png" }
     ]
   }
 }

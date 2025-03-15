@@ -13,9 +13,9 @@
         <button class="lang-btn" data-lang="fr">
             <img src="/static/images/fr.png" alt="Français">
         </button>
-        <button class="lang-btn" data-lang="en">
+        <!-- <button class="lang-btn" data-lang="en">
             <img src="/static/images/us.png" alt="Anglais">
-        </button>
+        </button> -->
     </div>
     <ul class="nav-links">
         <li><a href="/pages/home.php#">Accueil</a></li>

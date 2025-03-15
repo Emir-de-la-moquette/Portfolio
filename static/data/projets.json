@@ -25,10 +25,10 @@
       "lien": "./Projets/puissance4.php"
     },
     {
-      "titre": "Site web de managament Equestre",
-      "image": "../static/images/projets-events/poney.png",
-      "description": "SAÉ de BUT 2, Application web pour un client fictif qui dispose d'une partie où les clients peuvent réserver des cours, et les admins peuvent gérer les cours et ressources.",
-      "lien": "./Projets/grandgallop.php"
+      "titre": "Site recherche de restaurants",
+      "image": "../static/images/projets-events/resto1.png",
+      "description": "SAÉ de BUT 2, Application web et mobile pour répertorier les restaurants d'orléans.",
+      "lien": "./Projets/restaurant.php"
     },
     {
       "titre": "Battlestar Equestria online",

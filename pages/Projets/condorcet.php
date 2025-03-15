@@ -40,6 +40,10 @@ include "../navbar.php"
                 <p>
                     L'application a pour but d'être utilisée par les professeurs et l'administration, il nous imcombait donc de faire en sorte que l'application soit la plus accessible et simple d'utilisation possible afin de leur offrir la meilleur experience utilisateur !
                 </p>
+                <p>
+                    L'application a été complété puis déployée en ligne, elle est actuellement utilisée par le personnel du collège condorcet et avons même été invités à effectuer une présentatino devant des élèves.
+                </p>
+                <a href="https://www.linkedin.com/posts/karine-renaud-167224152_lensemble-des-%C3%A9l%C3%A8ves-du-coll%C3%A8ge-condorcet-activity-7301616215028822016-a2yW?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFK1lI8BgcRpQGVGSoAf6VbXqpDjqkG-5ME">Post Linkedin de la directrice du collège Condorcet</a>
             </div>
             <div class="func-bas">
                 <section class=txt>
