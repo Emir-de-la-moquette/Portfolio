@@ -3,6 +3,7 @@
     "langages": [
       { "nom": "Python", "image": "../static/images/skills/python.png" },
       { "nom": "Java", "image": "../static/images/skills/java.png" },
+      { "nom": "C#", "image": "../static/images/skills/c_sharp.png" },
       { "nom": "MySQL", "image": "../static/images/skills/mysql.png" }
     ],
     "WEB": [

@@ -11,6 +11,12 @@
       "image": "../static/images/projets-events/ndi.png",
       "description": "Participation à la nuit de l'info 2024.",
       "lien": "./Event/ndi2024.php"
+    },
+    {
+      "titre": "Code Game Jam 2025",
+      "image": "../static/images/projets-events/cgj.png",
+      "description": "Participation à une game jam de 40 heures.",
+      "lien": "./Event/cgj2025.php"
     }
   ]
 }
